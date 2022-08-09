@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+                android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profile_story"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_2"
+            app:shapeAppearanceOverlay="@style/circle"
+            app:strokeColor="@color/purple_500"
+            app:strokeWidth="3dp" />
+
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/fulname_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Bin"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
